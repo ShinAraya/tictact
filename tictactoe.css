@@ -1,0 +1,82 @@
+:root {
+  --winning-blocks:rgb(185, 113, 252);
+  --draw-blocks:red;
+}
+
+body {
+  background-color: rgb(148, 67, 246);
+  background-image: url(Drawing.png);
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 150px;
+}
+
+
+div {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 0;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.restart-button {
+  font-size: 30px;
+  padding: 8px 12px;
+  background-color: aliceblue;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#gameboard {
+  width: 500px;
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  font-family: 'Moirai One', cursive;
+}
+
+.box {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+  border-right: 2px solid rgb(0, 130, 0);
+  border-bottom: 2px solid rgb(26, 156, 26);
+}
+
+.barrier {
+  border: none;
+}
+
+.righted {
+  border-right: none;
+}
+
+.bottomed {
+  border-bottom: none;
+}
