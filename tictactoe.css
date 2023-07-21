@@ -65,8 +65,8 @@ div {
   align-items: center;
   color: white;
   font-size: 60px;
-  border-right: 2px solid rgb(0, 130, 0);
-  border-bottom: 2px solid rgb(26, 156, 26);
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .barrier {
