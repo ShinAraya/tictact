@@ -9,9 +9,18 @@ body {
   font-family: 'Quicksand', sans-serif;
   position: relative;
   margin-top: 0;
-  margin-bottom: 150px;
+  margin-bottom: 0px;
 }
 
+.audio-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+audio {
+  width: 400px;
+  height: 54px;
+}
 
 div {
   margin-top: 0;
@@ -24,7 +33,7 @@ div {
 .container {
   margin-top: 0;
   padding: 40px;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
